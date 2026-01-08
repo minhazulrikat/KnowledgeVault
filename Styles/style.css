@@ -6,6 +6,8 @@
   --green: #469165;
   --white: #ffffff;
   --yellow: #fce45f;
+  --tomato: #f95555;
+  --offwhite: #fbfbfb;
 }
 * {
   margin: 0;
@@ -56,7 +58,6 @@ nav {
   padding-top: 115px;
   padding-bottom: 179px;
   text-align: center;
-  margin-bottom: 100px;
 }
 .title-tag {
   font-size: 16px;
@@ -88,11 +89,10 @@ nav {
 }
 .hero-text > p {
   font-weight: 300;
-  padding:10px 0;
+  padding: 10px 0;
   font-size: 18px;
   line-height: 133%;
   color: #fff;
-
 }
 .hero-btn {
   display: flex;
@@ -130,7 +130,7 @@ nav {
   justify-content: space-between;
   gap: 10px;
   font-size: 16px;
-  }
+}
 .primary-btn:hover {
   cursor: pointer;
   background-color: var(--yellow);
@@ -139,16 +139,76 @@ nav {
 .primary-btn:hover svg path {
   fill: var(--dark-blue);
 }
-.secondary-btn:hover{
-    cursor: pointer;
-    background-color: var(--white);
-    color: var(--dark-blue);
+.secondary-btn:hover {
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--dark-blue);
 }
 .secondary-btn:hover svg path {
-    fill: var(--dark-blue);
+  fill: var(--dark-blue);
 }
 
 /* note section start form here  */
-.notes-title h1{
-
+.Notes {
+  background-color: var(--offwhite);
+  padding: 100px 0;
+}
+.notes-title{
+     margin-bottom: 44px;
+}
+.notes-title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: var(--dark-blue);
+}
+.notes-title p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.notes-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 44px;
+}
+.note-card {
+  border-radius: 8px;
+  padding: 24px;
+  width: 322px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+  background: var(--white);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+.card-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: var(--tomato);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-text h4 {
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-blue);
+}
+.card-text p {
+  font-size: 16px;
+  text-align: center;
+  color: var(--navy-blue);
+  margin-top: 16px;
 }
