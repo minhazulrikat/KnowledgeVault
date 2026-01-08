@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --dark-blue: #001931;
+  --navy-blue: #627382;
+  --green: #469165;
+  --white: #ffffff;
+  --yellow: #fce45f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+a,
+p {
+  color: #000;
+  font-size: 16px;
+}
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+nav {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.brandLogo img {
+  width: 139px;
+  height: 60px;
+  display: inline-block;
+}
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+.nav-btn a {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 12px 16px;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.hero {
+  background-image: url("/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 115px;
+  padding-bottom: 179px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.title-tag {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: var(--white);
+  padding: 8px 12px;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.title-tag p {
+  color: var(--green);
+  font-weight: 500;
+}
+.hero-text > h1 {
+  font-weight: 700;
+  font-size: 72px;
+  text-transform: capitalize;
+  color: var(--white);
+}
+#hero-heading-green {
+  color: var(--green);
+  margin-bottom: 22px;
+}
+.hero-text > p {
+  font-weight: 300;
+  padding:10px 0;
+  font-size: 18px;
+  line-height: 133%;
+  color: #fff;
+
+}
+.hero-btn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 32px;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.primary-btn {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 16px;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: var(--white);
+  padding: 16px;
+  display: inline-block;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 16px;
+  }
+.primary-btn:hover {
+  cursor: pointer;
+  background-color: var(--yellow);
+  color: var(--dark-blue);
+}
+.primary-btn:hover svg path {
+  fill: var(--dark-blue);
+}
+.secondary-btn:hover{
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+.secondary-btn:hover svg path {
+    fill: var(--dark-blue);
+}
