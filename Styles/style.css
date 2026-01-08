@@ -49,7 +49,7 @@ nav {
   font-weight: 600;
 }
 .hero {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -146,4 +146,9 @@ nav {
 }
 .secondary-btn:hover svg path {
     fill: var(--dark-blue);
+}
+
+/* note section start form here  */
+.notes-title h1{
+
 }
