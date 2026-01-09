@@ -278,3 +278,32 @@ nav {
   font-size: 16px;
   color: var(--dark-blue);
 }
+
+/* final cta section start here  */
+.final-cta > .container {
+  background-color: var(--offwhite);
+  border-radius: 8px;
+  padding: 64px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.final-cta h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--dark-blue);
+  margin-bottom: 16px;
+}
+.final-cta p {
+color: var(--navy-blue);
+}
+.final-cta-btn {
+  margin-top: 24px;
+  margin-bottom:16px;
+}
