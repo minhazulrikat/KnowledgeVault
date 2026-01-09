@@ -282,7 +282,7 @@ nav {
 /* final cta section start here  */
 .final-cta > .container {
   background-color: var(--offwhite);
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 64px 80px;
   display: flex;
   flex-direction: column;
@@ -301,9 +301,59 @@ nav {
   margin-bottom: 16px;
 }
 .final-cta p {
-color: var(--navy-blue);
+  color: var(--navy-blue);
 }
 .final-cta-btn {
   margin-top: 24px;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
+footer {
+  background-color: var(--dark-blue);
+  padding-top: 120px;
+  padding-bottom: 30px;
+  margin-top: 120px;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 107px;
+}
+.social-icon p {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--white);
+}
+.social-icons-container {
+  display: flex;
+  gap: 16px;
+}
+.social-icons-container > div {
+  margin-top: 16px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+  }
+}
+.copyright-text {
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-top: 1px solid var(--navy-blue);
+  max-width: 1360px;
+  p {
+    font-size: 16px;
+    text-align: center;
+    color: var(--offwhite);
+  }
+}
+/* the end  */
